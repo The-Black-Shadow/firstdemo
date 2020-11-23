@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1174px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 275px;
+        flex-direction: column;
+        transition: all .5s ease-out;
+    }
+
+    .boxMain {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search {
+        width: 73%;
+    }
+
+    .rightNav {
+        text-align: center;
+    }
+
+    .btn-sm {
+        margin-top: 10px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 47px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .boxOne {
+        flex-direction: column-reverse;
+    }
+
+    .boxOneRight {
+        flex-direction: column-reverse;
+    }
+
+    .rightSide {
+        width: 75%;
+    }
+
+    .rightSide image {
+        width: 120%;
+    }
+}
